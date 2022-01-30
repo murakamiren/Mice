@@ -1,0 +1,34 @@
+{
+	"name": "vite-react-framer",
+	"version": "0.0.0",
+	"private": true,
+	"homepage": "/ecc/rmurakami/mice/public/",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.7.1",
+		"@n8tb1t/use-scroll-position": "^2.0.3",
+		"@types/react-router": "^5.1.17",
+		"@types/recoil": "0.0.9",
+		"framer-motion": "^5.5.5",
+		"history": "^5.2.0",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-hook-form": "^7.22.5",
+		"react-icons": "^4.3.1",
+		"react-router-dom": "^6.2.1",
+		"recoil": "^0.5.2",
+		"swr": "^1.1.2"
+	},
+	"devDependencies": {
+		"@emotion/babel-plugin": "^11.7.2",
+		"@types/react": "^17.0.33",
+		"@types/react-dom": "^17.0.10",
+		"@vitejs/plugin-react": "^1.0.7",
+		"typescript": "^4.4.4",
+		"vite": "^2.7.2"
+	}
+}
