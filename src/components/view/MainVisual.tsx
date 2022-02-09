@@ -152,7 +152,7 @@ const MainVisual: VFC = () => {
 				width: 75%;
 				span {
 					display: block;
-					margin-top: 1em;
+					margin-top: 2em;
 				}
 			}
 		}
@@ -209,7 +209,7 @@ const MainVisual: VFC = () => {
 			}
 		}
 		.btns {
-			margin-top: 80px;
+			margin-top: 40px;
 			display: flex;
 			gap: 24px;
 			z-index: 10;
@@ -233,11 +233,9 @@ const MainVisual: VFC = () => {
 					<span>ゲーミングPC</span>
 				</motion.h1>
 				<motion.p variants={fadeInItems}>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae earum optio mollitia quod, voluptas,
-					reprehenderit atque nulla minima exercitationem numquam rem fugit perferendis explicabo vel nostrum debitis.
-					Quibusdam, tempora iure.
+					貴方だけの想像あふれるオリジナルゲーミングPCを簡単に、スピーディーに組み立てよう。
 					<br />
-					<span>あなただけのゲーミングPCを</span>
+					<span>さあ、早速ビルドしよう</span>
 				</motion.p>
 				<motion.div variants={fadeInItems} className="btns">
 					<Btn w="144px" h="48px" txt="組み立てる" bgColor="#3165ec" txtColor="#fff" onClick={handleClick} />
